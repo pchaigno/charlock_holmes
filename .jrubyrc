@@ -1,1 +1,2 @@
 cext.enabled=true
+compat.version=2.0
