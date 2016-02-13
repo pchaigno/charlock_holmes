@@ -1,6 +1,6 @@
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install libicu-dev ruby1.8-dev ruby1.9.1-dev
+  - sudo apt-get install libicu-dev ruby1.8-dev ruby1.9.1-dev make gcc
   - cp .jrubyrc ~/
 language: ruby
 rvm:
